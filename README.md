@@ -20,9 +20,9 @@
 
 <p>
 <strong>	1.</strong> ABSTRAIR o DOMÍNIO Bootcamp e MODELAR seus ATRIBUTOS E MÉTODOS <br>
-<strong>	2.</strong> Criar as CLASSES: Bootcamp, Cursos, Mentorias e Devs e vamos relacioná-las <br>
+<strong>	2.</strong> Criar as CLASSES: Bootcamp, Cursos, Mentorias e Devs e relacioná-las <br>
 <strong>	3.</strong> As CLASSES Curso, Mentoria e Devs também serão MODELADOS, ou seja, necessário criar seus ATRIBUTOS E MÉTODOS <br> 
-<strong>	4.</strong> Para que o código fique mais legível e de fácil manutenção, iremos utilizar de algumas das ferramentas que o PARADIGMA DE ORIENTAÇÃO A OBJETOS (POO) nos oferece: ABSTRAÇÃO, ENCAPSULAMENTO, HERANÇA E POLIMORFISMO <br>
+<strong>	4.</strong> Para que o código fique mais legível e de fácil manutenção, utilizar algumas das ferramentas que o PARADIGMA DE ORIENTAÇÃO A OBJETOS (POO) oferece: ABSTRAÇÃO, ENCAPSULAMENTO, HERANÇA E POLIMORFISMO <br>
 <strong>	5.</strong> E para representar CLASSES que foram criadas e relacionadas, será necessário transformá-las em OBJETOS<br>
 </p>
 
