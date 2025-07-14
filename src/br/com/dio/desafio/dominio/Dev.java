@@ -17,16 +17,17 @@ public class Dev {
 	private Set<Conteudo> conteudosInscritos = new LinkedHashSet<>();
 	private Set<Conteudo> conteudosConcluidos = new LinkedHashSet<>();
 	
-	public void inscreverBootcamp(Bootcamp bootcamp) {
+	public void inscreverBootcamp(Bootcamp bootcamp) {		
 		this.conteudosInscritos.addAll(bootcamp.getConteudos()); // Adicionado em 'conteudosInscritos' todo o conteúdo do 'bootcamp'
 		bootcamp.getDevsInscritos().add(this); // Adicionei o 'dev' Atual (this) ao 'bootcamp'
+		
 	}
 	
 	public void progredir() {
 		// Uso do 'Optional' para lidar com retorno 'null'
 		Optional<Conteudo> conteudo = this.conteudosInscritos.stream().findFirst();
 		// se existir conteúdo
-		if(conteudo.isEmpty()) {
+		if(conteudo.isPresent()) {
 			this.conteudosConcluidos.add(conteudo.get()); // adiciono o 'conteudo' a 'conteudosConcluidos'
 			this.conteudosInscritos.remove(conteudo.get()); // removo o 'conteudo' de 'conteudosInscritos'
 		}else {
