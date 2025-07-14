@@ -18,8 +18,8 @@ public class Bootcamp {
 	private final LocalDate dataFim = dataInicial.plusDays(45); // dataInicial + 45 dias
 	private Set<Conteudo> conteudos = new LinkedHashSet<Conteudo>(); // manter a ordenação de inscrição
 	private Set<Dev> devsInscritos = new HashSet<>(); // A ordenação não é importante
-	
-	
+
+
 	public String getNome() {
 		return nome;
 	}
