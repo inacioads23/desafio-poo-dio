@@ -8,8 +8,6 @@ public abstract class Conteudo {
 	private String descricao;
 	
 	
-		
-	
 
 	public String getTitulo() {
 		return titulo;
